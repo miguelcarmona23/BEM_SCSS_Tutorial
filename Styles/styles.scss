@@ -101,6 +101,19 @@ $button-color: Magenta;
     }
 }
 
+.list {
+    text-align: center;
+    margin: 0 auto;
+    width: fit-content;
+    width: -moz-fit-content;
+    width: -webkit-fit-content;
+    font-size:2rem;
+    .list__item .list__item--second {
+        margin-left: 15px;
+        color:$primary-color;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     .card__section .card__item {
         width: 65%;
