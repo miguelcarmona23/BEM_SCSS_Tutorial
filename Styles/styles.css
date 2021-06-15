@@ -177,6 +177,39 @@
   color: purple;
 }
 
+.checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background: purple;
+  font-family: 'Staatliches';
+  color: white;
+}
+
+.checkbox .checkbox__body {
+  margin: 5vh 20px;
+  font-size: 2rem;
+}
+
+.checkbox .checkbox__body .checkbox__help {
+  text-decoration: none;
+}
+
+.checkbox .checkbox__body .checkbox__help a:hover {
+  color: green;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  text-decoration: none;
+}
+
 @media only screen and (max-width: 600px) {
   .card__section .card__item {
     width: 65%;

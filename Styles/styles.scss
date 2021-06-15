@@ -114,6 +114,35 @@ $button-color: Magenta;
     }
 }
 
+.checkbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: $primary-color;
+    font-family: 'Staatliches';
+    color: white;
+    // .checkbox__input {
+    //     display: flex;
+    //     justify-content: center;
+    //     align-items: center;
+    //     flex-wrap: wrap;
+    //     list-style-type: none;   
+    // }
+    .checkbox__body {
+        margin: 5vh 20px;
+        font-size: 2rem;
+        .checkbox__help {
+            text-decoration: none;
+        }
+        .checkbox__help a:hover {
+            color: $hover-color;
+            transition: all 0.3s ease-in;
+            text-decoration: none;
+        }
+    }
+}
+
 @media only screen and (max-width: 600px) {
     .card__section .card__item {
         width: 65%;
