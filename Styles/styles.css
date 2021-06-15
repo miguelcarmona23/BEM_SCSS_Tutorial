@@ -199,12 +199,13 @@
   font-size: 2rem;
 }
 
-.checkbox .checkbox__body .checkbox__help {
+.checkbox .checkbox__body .checkbox__help a {
+  color: green;
   text-decoration: none;
 }
 
 .checkbox .checkbox__body .checkbox__help a:hover {
-  color: green;
+  color: black;
   -webkit-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
   text-decoration: none;

@@ -125,11 +125,12 @@ $button-color: Magenta;
     .checkbox__body {
         margin: 5vh 20px;
         font-size: 2rem;
-        .checkbox__help {
+        .checkbox__help a {
+            color: $hover-color;
             text-decoration: none;
         }
         .checkbox__help a:hover {
-            color: $hover-color;
+            color: black;
             transition: all 0.3s ease-in;
             text-decoration: none;
         }
