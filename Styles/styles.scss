@@ -141,4 +141,14 @@ $button-color: Magenta;
         width: 65%;
         padding: 2vh;
     }
+    .checkbox {
+        padding: 10px;
+        .checkbox__body {
+            font-size: 1.5rem;
+            margin: 0 auto;
+            text-align: center;
+            padding: 10px;
+        }
+    }
+    
 }
