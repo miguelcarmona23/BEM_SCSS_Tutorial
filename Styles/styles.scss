@@ -122,6 +122,7 @@ $button-color: Magenta;
     background: $primary-color;
     font-family: 'Staatliches';
     color: white;
+    margin: 10px 0;
     .checkbox__body {
         margin: 5vh 20px;
         font-size: 2rem;
@@ -177,6 +178,76 @@ $button-color: Magenta;
             padding: 10px;
         }
 }
+
+// FLEXBOX RULES
+// .container  {
+//     height:50vh;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     .box-1 {
+//         width: 120px;
+//         height: 120px;
+//         background-color: skyblue;
+//         border: 2px solid black;
+//     }
+// }
+
+// GRID RULES
+    // .container {
+    //     display: grid;
+    //     height: 50vh;
+    //     place-content: center;
+    //     .box-1 {
+    //                 width: 120px;
+    //                 height: 120px;
+    //                 background-color: skyblue;
+    //                 border: 2px solid black;
+    //             }
+    // }
+
+// POSITION PROPERTY RULES
+// .container {
+//     height: 50vh;
+//     position: relative;
+//         .box-1 {
+//             position: absolute;
+//             width: 120px;
+//             height: 120px;
+//             background-color: skyblue;
+//             border: 2px solid black;
+//             top: 50%;
+//             left: 50%;
+//             transform:translate(-50%, -50%);
+//         }
+// }
+
+// MARGIN PROPERTY RULES
+.container {
+    height:50vh;
+    display: flex;
+        .box-1 {
+            width: 120px;
+            height: 120px;
+            background-color: skyblue;
+            border: 2px solid black;
+            margin: auto;
+        }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 600px) {
     .card__section .card__item {

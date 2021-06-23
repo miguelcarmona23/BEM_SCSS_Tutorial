@@ -192,6 +192,7 @@
   background: purple;
   font-family: 'Staatliches';
   color: white;
+  margin: 10px 0;
 }
 
 .checkbox .checkbox__body {
@@ -235,6 +236,21 @@
 .modal .modal__main {
   margin: auto;
   padding: 10px;
+}
+
+.container {
+  height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .box-1 {
+  width: 120px;
+  height: 120px;
+  background-color: skyblue;
+  border: 2px solid black;
+  margin: auto;
 }
 
 @media only screen and (max-width: 600px) {
