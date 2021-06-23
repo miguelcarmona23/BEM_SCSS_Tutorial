@@ -137,6 +137,47 @@ $button-color: Magenta;
     }
 }
 
+// DON'T DO THIS!
+// .grid {
+//     display: flex;
+//     justify-content: space-between;
+//         .item {
+//             width: 50%;
+//             background-color: blue;
+//             color: #fff;
+//             border: 1px solid #fff;
+//             text-align: center;
+//         }
+// }
+
+// DO THIS!
+.grid {
+    display: flex;
+    column-gap: 5%;
+        .item {
+            width: 30%;
+            background-color: blue;
+            color: #fff;
+            text-align: center;
+        }
+}
+
+// DON'T DO THIS!
+// .modal {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+// }
+
+// DO THIS!
+.modal {
+    display: flex;
+        .modal__main {
+            margin: auto;
+            padding: 10px;
+        }
+}
+
 @media only screen and (max-width: 600px) {
     .card__section .card__item {
         width: 65%;
