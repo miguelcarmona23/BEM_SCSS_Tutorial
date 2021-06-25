@@ -236,7 +236,28 @@ $button-color: Magenta;
 }
 
 
-
+.js-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 25vh;
+    .btn-js {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: auto;
+        padding: 15px 32px;
+        font-size: 1.25rem;
+        background-color: teal;
+        color:#fff;
+        #demo {
+            font-size: 6rem;
+        }
+    }
+}
 
 
 
