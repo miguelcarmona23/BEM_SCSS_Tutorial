@@ -107,10 +107,10 @@ $button-color: Magenta;
     width: fit-content;
     width: -moz-fit-content;
     width: -webkit-fit-content;
-    font-size:2rem;
+    font-size: 2rem;
     .list__item .list__item--second {
         margin-left: 15px;
-        color:$primary-color;
+        color: $primary-color;
     }
 }
 
@@ -120,7 +120,7 @@ $button-color: Magenta;
     align-items: center;
     flex-wrap: wrap;
     background: $primary-color;
-    font-family: 'Staatliches';
+    font-family: "Staatliches";
     color: white;
     margin: 10px 0;
     .checkbox__body {
@@ -155,12 +155,12 @@ $button-color: Magenta;
 .grid {
     display: flex;
     column-gap: 5%;
-        .item {
-            width: 30%;
-            background-color: blue;
-            color: #fff;
-            text-align: center;
-        }
+    .item {
+        width: 30%;
+        background-color: blue;
+        color: #fff;
+        text-align: center;
+    }
 }
 
 // DON'T DO THIS!
@@ -173,10 +173,10 @@ $button-color: Magenta;
 // DO THIS!
 .modal {
     display: flex;
-        .modal__main {
-            margin: auto;
-            padding: 10px;
-        }
+    .modal__main {
+        margin: auto;
+        padding: 10px;
+    }
 }
 
 // FLEXBOX RULES
@@ -194,17 +194,17 @@ $button-color: Magenta;
 // }
 
 // GRID RULES
-    // .container {
-    //     display: grid;
-    //     height: 50vh;
-    //     place-content: center;
-    //     .box-1 {
-    //                 width: 120px;
-    //                 height: 120px;
-    //                 background-color: skyblue;
-    //                 border: 2px solid black;
-    //             }
-    // }
+// .container {
+//     display: grid;
+//     height: 50vh;
+//     place-content: center;
+//     .box-1 {
+//                 width: 120px;
+//                 height: 120px;
+//                 background-color: skyblue;
+//                 border: 2px solid black;
+//             }
+// }
 
 // POSITION PROPERTY RULES
 // .container {
@@ -224,17 +224,16 @@ $button-color: Magenta;
 
 // MARGIN PROPERTY RULES
 .container {
-    height:50vh;
+    height: 50vh;
     display: flex;
-        .box-1 {
-            width: 120px;
-            height: 120px;
-            background-color: skyblue;
-            border: 2px solid black;
-            margin: auto;
-        }
+    .box-1 {
+        width: 120px;
+        height: 120px;
+        background-color: skyblue;
+        border: 2px solid black;
+        margin: auto;
+    }
 }
-
 
 .js-container {
     display: flex;
@@ -252,46 +251,36 @@ $button-color: Magenta;
         padding: 15px 32px;
         font-size: 1.25rem;
         background-color: teal;
-        color:#fff;   
+        color: #fff;
     }
     #demo {
         font-size: 6rem;
     }
 }
 
-
-
-
-
-
 @media only screen and (max-width: 700px) {
-        .js-container {
-            height: auto;
-            .js-container #demo {
-                font-size: 4rem;
-                text-align: center;
-                padding: 20px;
-        }
-    
-}
-
-
-
-
-
-@media only screen and (max-width: 600px) {
-    .card__section .card__item {
-        width: 65%;
-        padding: 2vh;
-    }
-    .checkbox {
-        padding: 10px;
-        .checkbox__body {
-            font-size: 1.5rem;
-            margin: 0 auto;
+    .js-container {
+        height: auto;
+        .js-container #demo {
+            font-size: 4rem;
             text-align: center;
-            padding: 10px;
+            padding: 20px;
         }
     }
+
+    @media only screen and (max-width: 600px) {
+        .card__section .card__item {
+            width: 65%;
+            padding: 2vh;
+        }
+        .checkbox {
+            padding: 10px;
+            .checkbox__body {
+                font-size: 1.5rem;
+                margin: 0 auto;
+                text-align: center;
+                padding: 10px;
+            }
+        }
     }
 }
