@@ -254,6 +254,8 @@
 }
 
 .js-container {
+  background-color: maroon;
+  color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
