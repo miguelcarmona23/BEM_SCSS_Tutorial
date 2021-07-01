@@ -296,6 +296,7 @@
 }
 
 .myForm {
+  background-color: orange;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
